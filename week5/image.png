@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]> <html lang="en" class="no-js old-ie lt-ie9 lt-ie8 lt-ie10"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="no-js ie9 lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <meta name="robots" content=""/>
+  <meta name="google-site-verification" content="OnYZb3DURPEtkzWjBK9Os8HXWw5DZFcJyV9RcIEvj4c"/>
+  <meta name="msvalidate.01" content="331C019E20866E34F7155BE11A335254"/>
+  <link rel="shortcut icon" href="https://storage.googleapis.com/pcf_sb_39_1613727931605803249/assets/images/favicon.ico"/>
+  <title>Home - AdisInsight</title>
+  <link href="http://adisinsight.springer.com" rel="canonical"/>
+  <link href="http://adis.springer.com" rel="canonical"/>
+  <!--[if gt IE 8]><!--> <link rel="stylesheet" media="screen" href=/static/0.206.0/sass/adisinsight_plugins.min.css> <!--<![endif]-->
+  <!--[if gt IE 8]><!--> <link rel="stylesheet" media="screen" href=/static/0.206.0/sass/adisinsight.min.css> <!--<![endif]-->
+  <!--[if (lt IE 9) & (!IEMobile)]> <link rel="stylesheet" media="screen" href=/static/0.206.0/sass/ielt9_adis.min.css> <![endif]-->
+  <link rel="stylesheet" href="/static/0.206.0/stylesheets/multiple-emails.css"/>
+  <link rel="stylesheet" href="/static/0.206.0/stylesheets/perfect-scrollbar.min.css"/>
+  <link rel="stylesheet" href="/static/0.206.0/stylesheets/smoothDivScroll.css"/>
+  <link rel="stylesheet" href="/static/0.206.0/stylesheets/jquery.steps.css"/>
+  <script src="/static/0.206.0/javascripts/modernizr.custom.99377.js" type="text/javascript"></script>
+  <script type="text/plain" class="optanon-category-2">
+    dataLayer = [{
+    'user': {
+    'visitor_id': getVisitorIdFromLocalStorage()
+    },
+    'session': {
+    'authentication':{
+    'authenticationID': '3000093925',
+    'method': 'institutional'
+    }
+    },
+    'page': {
+    'pageInfo': {},
+    'category': {
+    'pageType': ''
+    },
+    'attributes': {
+    'template': '',
+    }
+    },
+    'privacy': {},
+    'version': '1.0.0',
+    }];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N8RLKKZ');
+    
+    function getVisitorIdFromLocalStorage() {
+    return localStorage.getItem("visitor_id");
+    }
+  </script>
+  <noscript>
+    <h1 class="noScriptMsg">
+      Either you have JavaScript disabled or your browser does not support Javascript . To work properly, this page requires JavaScript to be enabled. <br>
+      <a href="https://www.enable-javascript.com/" target="_blank">
+        How to enable JavaScript in your browser?
+      </a>
+    </h1>
+  </noscript>
+</head>
+
+<input id="userEmailId" type="hidden" name="userEmailId" value=""/>
+<input id="userBpIds" type="hidden" name="userBpIds" value="3000093925"/>
+<input id="userIsLoggedIn" type="hidden" name="userIsLoggedIn" value="false"/>
+<input id="userIsLoginTypeInstitutional" type="hidden" name="userIsLoginTypeInstitutional" value="true"/>
+<input id="userIsAnonymous" type="hidden" name="userIsAnonymous" value="false"/>
+<input id="userIsAnonymousUser" type="hidden" name="userIsAnonymousUser" value="false"/>
+<input id="userIsLoginUnauthorized" type="hidden" name="userIsLoginUnauthorized" value="false"/>
+<input id="nonComplianceUsersBpIds" type="hidden" name="nonComplianceUsersBpIds" value="3000142857"/>
+<body class="page__home" user="institutional" static-content-host="https://storage.googleapis.com/pcf_sb_39_1613727931605803249">
+  <noscript>
+    <a src="https://www.googletagmanager.com/ns.html?id=GTM-N8RLKKZ" height="0" width="0" style="display:none;visibility:hidden"></a>
+  </noscript>
+  <!-- /= render("/includes/beta_bar.jade") -->
+  <div class="overlay_ui" id="overlay-unique-identifier" style="display: none;">
+    <div id="overlay-verification" class="overlay-ui-dialog--box overlay-verification modify-top">
+  <div class="overlay-dialog" id="overlay-unique-verification">
+    <div class="check-visitor-id">
+      <div class="overlay-dialog--header">
+        <h1>
+          Welcome to AdisInsight
+        </h1>
+      </div>
+      <div class="overlay-format-wrapper">
+        <p>
+          Please enter your official email address
+        </p>
+        <strong>
+          Email Address
+        </strong>
+        <input class="unique-emailID" id="check-emailid" type="text" name="check-unique-email" title="Your email address" maxlength="50"/>
+        <span class="error_tooltip hidden" id="error-emailid">
+          Please enter your official email address
+        </span>
+      </div>
+      <button id="continue-emailid" type="submit" value="Continue" name="Continue" class="btn btn-primary btn-monster" tabindex="9">Continue</button>
+      <div class="colorbox-dialog--body">
+        <span>
+          We notice that your permissions preference cookie is missing.  Please enter your email address so we can determine if you need to complete a permission form or verify that you have already completed this form.  Receiving permission from our users is an important part of our compliance with international privacy regulations.  Your email address will not be shared without your permission.  Please refer to our
+          <a href="/terms-and-conditions" target="_blank" alt="privacy policy">
+            privacy policy
+          </a>
+          for information on how we protect your personal information.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="overlay-ui-dialog--box identifier-details" id="master-overlay-unique-identifier" style="display: none;">
+  <div class="overlay-dialog" id="child-overlay-unique-identifier">
+    <div class="welcome-page-wrapper information">
+      <div class="welcome-page layout__col-main" role="main">
+        <div class="welcome-page__section-content">
+          <h1>
+            Welcome to AdisInsight
+          </h1>
+          <p class="welcome-page__content">
+            We need some information from you before you start using the platform.
+            This information will allow us to better understand how AdisInsight is being used.
+            It does not require or replace the individual login accounts that many of you use to save searches and create email alerts.
+            Protecting your personal information is important.
+            That is why AdisInsight collects the minimum amount of information necessary to enable functionality, report usage, and contact you with information about AdisInsight.
+            For further information on how we protect and process your personal information, please refer to our
+            <a class="policy-link" href="/terms-and-conditions" alt="privacy policy" target="_blank" tabindex="0">
+              privacy policy.
+            </a>
+          </p>
+        </div>
+        <div class="welcome-page__section">
+          <div class="welcome-page__section-termsandpermissions">
+            <div class="section-terms">
+              <h2 class="heading-terms">
+                Terms of Service
+              </h2>
+              <p>
+                By accessing or using the AdisInsight platform you agree to the terms of use.
+              </p>
+              <input id="terms-of-use" type="checkbox" name="terms-of-use" value="I agree to the terms of use" tabindex="1"/>
+              <label for="terms-of-use">
+                I agree to the
+                <a href="https://link.springer.com/termsandconditions" alt="terms of use" target="_blank" tabindex="2">
+                  terms of use
+                </a>
+              </label>
+              <span class="error_tooltip error-term-panel hidden" id="error-terms-of-use">
+                Please select terms of use
+              </span>
+              <p>
+                How much you and your colleagues use AdisInsight often determines if your organization will continue paying to provide access to the platform.
+                The number of times you access AdisInsight, the number of searches you performed, and the number of profiles you viewed will be provided to your organization both in aggregate with other users and individually by your email address.
+                You have the right to opt-out of sharing your email address with your organization but doing so may negatively affect your organization’s decision to renew their subscription to AdisInsight.  If you opt-out your email will still be collected for registration purposes.
+              </p>
+              <input id="opt-in-for-sharing" type="radio" name="opt-for-sharing" value="opt-in" tabindex="3"/>
+              <label for="opt-in-for-sharing">
+                I agree to share my email address with the organization providing my access to AdisInsight
+                <br/>
+              </label>
+              <input id="opt-out-for-sharing" type="radio" name="opt-for-sharing" value="opt-out" tabindex="4"/>
+              <label for="opt-out-for-sharing">
+                I do not agree to share my email address with the organization providing my access to AdisInsight
+              </label>
+              <span class="error_tooltip error-access-panel hidden" id="error-access">
+                Please choose your email permissions
+              </span>
+            </div>
+            <div class="section-permissions">
+              <h2 class="heading-permissions">
+                Get more from AdisInsight
+              </h2>
+              <p class="getmore">
+                Keep up to date with all things AdisInsight by signing up to receive our product bulletin, which includes related content from Springer Nature such as white papers, product news, industry commentaries, and webinar invites, straight to your inbox.  Unsubscription is always possible via email.
+              </p>
+              <input id="receive-email" type="radio" name="permissions" value="like-to-receive" tabindex="3"/>
+              <label for="receive-email">
+                I would like to receive the product bulletins by email
+                <br/>
+              </label>
+              <input id="do-not-receive-email" type="radio" name="permissions" value="not-like-to-receive" tabindex="4"/>
+              <label for="do-not-receive-email">
+                I would not like to receive the product bulletins by email (service emails will still be sent)
+              </label>
+              <span class="error_tooltip error-permission-panel hidden" id="error-permissions">
+                Please choose your permissions
+              </span>
+              <p>
+                Mandatory field
+              </p>
+            </div>
+          </div>
+          <div class="welcome-page__section-form-details">
+            <span class="error_tooltip error-right-panel hidden" id="error-emailid">
+              Please enter your official email address
+            </span>
+            <label class="email-label">
+              Email Address
+            </label>
+            <input class="email-address" id="email-address-field" type="text" name="unique-email" title="Your email address" maxlength="50" tabindex="5"/>
+            <label>
+              Country
+            </label>
+            <select id="country-field" tabindex="6" class="country-field-dropdown search-filter select-dropdown selectBox">
+              <option value="none" selected="selected" disabled="disabled" hidden="hidden">Select Country</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="American Samoa">American Samoa</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Anguilla">Anguilla</option>
+              <option value="Antarctica">Antarctica</option>
+              <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Aruba">Aruba</option>
+              <option value="Australia">Australia</option>
+              <option value="Austria">Austria</option>
+              <option value="Azerbaijan">Azerbaijan</option>
+              <option value="Bahamas">Bahamas</option>
+              <option value="Bahrain">Bahrain</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Barbados">Barbados</option>
+              <option value="Belarus">Belarus</option>
+              <option value="Belgium">Belgium</option>
+              <option value="Belize">Belize</option>
+              <option value="Benin">Benin</option>
+              <option value="Bermuda">Bermuda</option>
+              <option value="Bhutan">Bhutan</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+              <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+              <option value="Botswana">Botswana</option>
+              <option value="Bouvet Island">Bouvet Island</option>
+              <option value="Brazil">Brazil</option>
+              <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+              <option value="Brunei Darussalam">Brunei Darussalam</option>
+              <option value="Bulgaria">Bulgaria</option>
+              <option value="Burkina Faso">Burkina Faso</option>
+              <option value="Burundi">Burundi</option>
+              <option value="Cambodia">Cambodia</option>
+              <option value="Cameroon">Cameroon</option>
+              <option value="Canada">Canada</option>
+              <option value="Cape Verde">Cape Verde</option>
+              <option value="Cayman Islands">Cayman Islands</option>
+              <option value="Central African Republic">Central African Republic</option>
+              <option value="Chad">Chad</option>
+              <option value="Chile">Chile</option>
+              <option value="China">China</option>
+              <option value="Christmas Island">Christmas Island</option>
+              <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Comoros">Comoros</option>
+              <option value="Congo">Congo</option>
+              <option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option>
+              <option value="Cook Islands">Cook Islands</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+              <option value="Croatia">Croatia</option>
+              <option value="Cuba">Cuba</option>
+              <option value="Curaçao">Curaçao</option>
+              <option value="Cyprus">Cyprus</option>
+              <option value="Czech Republic">Czech Republic</option>
+              <option value="Denmark">Denmark</option>
+              <option value="Djibouti">Djibouti</option>
+              <option value="Dominica">Dominica</option>
+              <option value="Dominican Republic">Dominican Republic</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="Egypt">Egypt</option>
+              <option value="El Salvador">El Salvador</option>
+              <option value="Equatorial Guinea">Equatorial Guinea</option>
+              <option value="Eritrea">Eritrea</option>
+              <option value="Estonia">Estonia</option>
+              <option value="Ethiopia">Ethiopia</option>
+              <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+              <option value="Faroe Islands">Faroe Islands</option>
+              <option value="Fiji">Fiji</option>
+              <option value="Finland">Finland</option>
+              <option value="France">France</option>
+              <option value="French Guiana">French Guiana</option>
+              <option value="French Polynesia">French Polynesia</option>
+              <option value="French Southern Territories">French Southern Territories</option>
+              <option value="Gabon">Gabon</option>
+              <option value="Gambia">Gambia</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Germany">Germany</option>
+              <option value="Ghana">Ghana</option>
+              <option value="Gibraltar">Gibraltar</option>
+              <option value="Greece">Greece</option>
+              <option value="Greenland">Greenland</option>
+              <option value="Grenada">Grenada</option>
+              <option value="Guadeloupe">Guadeloupe</option>
+              <option value="Guam">Guam</option>
+              <option value="Guatemala">Guatemala</option>
+              <option value="Guernsey">Guernsey</option>
+              <option value="Guinea">Guinea</option>
+              <option value="Guinea-Bissau">Guinea-Bissau</option>
+              <option value="Guyana">Guyana</option>
+              <option value="Haiti">Haiti</option>
+              <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+              <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+              <option value="Honduras">Honduras</option>
+              <option value="Hong Kong">Hong Kong</option>
+              <option value="Hungary">Hungary</option>
+              <option value="Iceland">Iceland</option>
+              <option value="India">India</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+              <option value="Iraq">Iraq</option>
+              <option value="Ireland">Ireland</option>
+              <option value="Isle of Man">Isle of Man</option>
+              <option value="Israel">Israel</option>
+              <option value="Italy">Italy</option>
+              <option value="Jamaica">Jamaica</option>
+              <option value="Japan">Japan</option>
+              <option value="Jersey">Jersey</option>
+              <option value="Jordan">Jordan</option>
+              <option value="Kazakhstan">Kazakhstan</option>
+              <option value="Kenya">Kenya</option>
+              <option value="Kiribati">Kiribati</option>
+              <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+              <option value="Korea, Republic of">Korea, Republic of</option>
+              <option value="Kosovo">Kosovo</option>
+              <option value="Kuwait">Kuwait</option>
+              <option value="Kyrgyzstan">Kyrgyzstan</option>
+              <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+              <option value="Latvia">Latvia</option>
+              <option value="Lebanon">Lebanon</option>
+              <option value="Lesotho">Lesotho</option>
+              <option value="Liberia">Liberia</option>
+              <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+              <option value="Liechtenstein">Liechtenstein</option>
+              <option value="Lithuania">Lithuania</option>
+              <option value="Luxembourg">Luxembourg</option>
+              <option value="Macao">Macao</option>
+              <option value="Macedonia, the Former Yugoslav Republic of">Macedonia, the Former Yugoslav Republic of</option>
+              <option value="Madagascar">Madagascar</option>
+              <option value="Malawi">Malawi</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Maldives">Maldives</option>
+              <option value="Mali">Mali</option>
+              <option value="Malta">Malta</option>
+              <option value="Marshall Islands">Marshall Islands</option>
+              <option value="Martinique">Martinique</option>
+              <option value="Mauritania">Mauritania</option>
+              <option value="Mauritius">Mauritius</option>
+              <option value="Mayotte">Mayotte</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+              <option value="Moldova, Republic of">Moldova, Republic of</option>
+              <option value="Monaco">Monaco</option>
+              <option value="Mongolia">Mongolia</option>
+              <option value="Montenegro">Montenegro</option>
+              <option value="Montserrat">Montserrat</option>
+              <option value="Morocco">Morocco</option>
+              <option value="Mozambique">Mozambique</option>
+              <option value="Myanmar">Myanmar</option>
+              <option value="Namibia">Namibia</option>
+              <option value="Nauru">Nauru</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Netherlands">Netherlands</option>
+              <option value="New Caledonia">New Caledonia</option>
+              <option value="New Zealand">New Zealand</option>
+              <option value="Nicaragua">Nicaragua</option>
+              <option value="Niger">Niger</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="Niue">Niue</option>
+              <option value="Norfolk Island">Norfolk Island</option>
+              <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+              <option value="Norway">Norway</option>
+              <option value="Oman">Oman</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Palau">Palau</option>
+              <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+              <option value="Panama">Panama</option>
+              <option value="Papua New Guinea">Papua New Guinea</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Peru">Peru</option>
+              <option value="Philippines">Philippines</option>
+              <option value="Pitcairn">Pitcairn</option>
+              <option value="Poland">Poland</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Puerto Rico">Puerto Rico</option>
+              <option value="Qatar">Qatar</option>
+              <option value="Reunion">Reunion</option>
+              <option value="Romania">Romania</option>
+              <option value="Russian Federation">Russian Federation</option>
+              <option value="Rwanda">Rwanda</option>
+              <option value="Saint Barthélemy">Saint Barthélemy</option>
+              <option value="Saint Helena">Saint Helena</option>
+              <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+              <option value="Saint Lucia">Saint Lucia</option>
+              <option value="Saint Martin (French part)">Saint Martin (French part)</option>
+              <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+              <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+              <option value="Samoa">Samoa</option>
+              <option value="San Marino">San Marino</option>
+              <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+              <option value="Saudi Arabia">Saudi Arabia</option>
+              <option value="Senegal">Senegal</option>
+              <option value="Serbia">Serbia</option>
+              <option value="Seychelles">Seychelles</option>
+              <option value="Sierra Leone">Sierra Leone</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch part)</option>
+              <option value="Slovakia">Slovakia</option>
+              <option value="Slovenia">Slovenia</option>
+              <option value="Solomon Islands">Solomon Islands</option>
+              <option value="Somalia">Somalia</option>
+              <option value="South Africa">South Africa</option>
+              <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+              <option value="South Sudan">South Sudan</option>
+              <option value="Spain">Spain</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+              <option value="Sudan">Sudan</option>
+              <option value="Suriname">Suriname</option>
+              <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+              <option value="Swaziland">Swaziland</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Switzerland">Switzerland</option>
+              <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+              <option value="Taiwan">Taiwan</option>
+              <option value="Tajikistan">Tajikistan</option>
+              <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Timor-Leste">Timor-Leste</option>
+              <option value="Togo">Togo</option>
+              <option value="Tokelau">Tokelau</option>
+              <option value="Tonga">Tonga</option>
+              <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+              <option value="Tunisia">Tunisia</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Turkmenistan">Turkmenistan</option>
+              <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+              <option value="Tuvalu">Tuvalu</option>
+              <option value="Uganda">Uganda</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="United Arab Emirates">United Arab Emirates</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+              <option value="United States of America">United States of America</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Uzbekistan">Uzbekistan</option>
+              <option value="Vanuatu">Vanuatu</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Viet Nam">Viet Nam</option>
+              <option value="Virgin Islands, British">Virgin Islands, British</option>
+              <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+              <option value="Wallis and Futuna">Wallis and Futuna</option>
+              <option value="Western Sahara">Western Sahara</option>
+              <option value="Yemen">Yemen</option>
+              <option value="Zambia">Zambia</option>
+              <option value="Zimbabwe">Zimbabwe</option>
+              <option value="Åland Islands">Åland Islands</option>
+            </select>
+            <label>
+              Industry
+            </label>
+            <select id="industry-field" tabindex="7" class="industry-field-dropdown search-filter select-dropdown selectBox">
+              <option value="none" selected="selected" disabled="disabled" hidden="hidden">Select Industry</option>
+              <option value="Biotechnology">Biotechnology</option>
+              <option value="Consulting">Consulting</option>
+              <option value="Government">Government</option>
+              <option value="Engineering/Manufacturing">Engineering / Manufacturing</option>
+              <option value="Financial/Investment">Financial/Investment</option>
+              <option value="Government Institue or Agency">Government Institue or Agency</option>
+              <option value="HMO/Clinic">HMO / Clinic</option>
+              <option value="Hospital (community)">Hospital (community)</option>
+              <option value="Hospital (other)">Hospital (other)</option>
+              <option value="Hospital (university or teaching)">Hospital (university or teaching)</option>
+              <option value="Legal">Legal</option>
+              <option value="Media/Publishing">Media / Publishing</option>
+              <option value="Medical School">Medical School</option>
+              <option value="Non-Governent Organisation">Non-Governent Organisation</option>
+              <option value="Nursing Home/Assisted Living">Nursing Home / Assisted Living</option>
+              <option value="Pharmaceutical">Pharmaceutical</option>
+              <option value="Private Physician Office (group)">Private Physician Office (group)</option>
+              <option value="Private Physician Office (solo)">Private Physician Office (solo)</option>
+              <option value="Research Institute">Research Institute</option>
+              <option value="University/College">University / College</option>
+              <option value="Other">Other</option>
+            </select>
+            <label>
+              Job Title
+            </label>
+            <select id="job-title-field" tabindex="8" class="job-title-field-dropdown search-filter select-dropdown selectBox">
+              <option value="none" selected="selected" disabled="disabled" hidden="hidden">Select Job Title</option>
+              <option value="Associate Professor/Lecturer">Associate Professor / Lecturer</option>
+              <option value="Business Consultant">Business Consultant</option>
+              <option value="Business Development, Licensing or Technology Transfer">Business Development, Licensing or Technology Transfer</option>
+              <option value="Business/Financial Analyst or Competitive Intelligence">Business / Financial Analyst or Competitive Intelligence</option>
+              <option value="Clinical Affairs/Clinical Trials Operations">Clinical Affairs / Clinical Trials Operations</option>
+              <option value="Engineer">Engineer</option>
+              <option value="Head of Academic Department/Faculty">Head of Academic Department / Faculty</option>
+              <option value="Laboratory Director/Head">Laboratory Director / Head</option>
+              <option value="Librarian/Information Specialist">Librarian / Information Specialist</option>
+              <option value="Librarian/Metadata">Librarian / Metadata</option>
+              <option value="Librarian/Open Science/Research Data">Librarian / Open Science / Research Data</option>
+              <option value="Librarian/Subject Specialist">Librarian / Subject Specialist</option>
+              <option value="Librarian Acquisition/Collection Development">Librarian Acquisition / Collection Development</option>
+              <option value="Library Director/Head of Library">Library Director / Head of Library</option>
+              <option value="Medical Professional/Doctor">Medical Professional / Doctor</option>
+              <option value="Other">Other</option>
+              <option value="Pharmacovigilance, Regulatory Affairs or Quality">Pharmacovigilance, Regulatory Affairs or Quality</option>
+              <option value="PhD Student">PhD Student</option>
+              <option value="Post-doctoral Fellow">Post-doctoral Fellow</option>
+              <option value="President/CEO/Company Owner">President / CEO / Company Owner</option>
+              <option value="Principal Investigator">Principal Investigator</option>
+              <option value="Procurement Manager">Procurement Manager</option>
+              <option value="Professor">Professor</option>
+              <option value="R&amp;amp;D Management">R&amp;D Management</option>
+              <option value="Research Scientist">Research Scientist</option>
+              <option value="Sales &amp;amp; Marketing">Sales &amp; Marketing</option>
+              <option value="Senior Scientist">Senior Scientist</option>
+              <option value="Staff Scientist">Staff Scientist</option>
+              <option value="Student">Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Technician/Research Assistant">Technician / Research Assistant</option>
+            </select>
+            <button id="overlay-continue-emailid" class="btn btn-primary btn-monster" type="submit" value="Continue" name="Continue" tabindex="9" disabled="disabled">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="overlay-fade" id="fade"></div>
+
+  </div>
+  <div id="notification-bar"></div>
+  <div class="ajax-loader" style="display:none">
+    <img src="https://storage.googleapis.com/pcf_sb_39_1613727931605803249/assets/images/ajax_loader.gif" alt="loading..."/>
+  </div>
+  <div id="save-success-message" style="display:none;">
+    <span></span>
+  </div>
+  <div id="fade-message" style="display:none;">
+    <span></span>
+  </div>
+  <div class="container">
+    <div class="main-header" role="banner">
+      <h3>
+  <a id="logo" href="/">
+    <img src="https://storage.googleapis.com/pcf_sb_39_1613727931605803249/assets/images/Adis_logo.png" alt="Home" title="Home"/>
+  </a>
+</h3>
+<span class="pillow-btn open-search" id="toggle-searchbar" title="Open search">Search</span>
+<span class="pillow-btn open-menu" id="open-global-menu" title="Open menu">Menu</span>
+<div class="panel-menu">
+  <div class="panel-menu__cross-nav">
+    <div class="panel-menu__auth flyout">
+      <button id="login-link" class="flyout__flyout-caption flyout__flyout-caption--sign-in login-access-link" href="http://link.springer.com/signup-login" type="button">Sign up / Log in</button>
+    </div>
+  </div>
+  <ul class="panel-menu__global-nav">
+    <li class="active">
+  <a class="menu__home-link" href="/">Home</a>
+</li>
+<li class="hide_in_mobile ">
+  <a class="menu__workspace-link" href="/workspace">My Workspace</a>
+</li>
+<li class="">
+  <a class="menu__contact-us-link" href="/contact-us">Contact Us</a>
+</li>
+
+  </ul>
+</div>
+<span class="springer-logo" href="#"></span>
+<input id="business-partner-ids" type="hidden" value="3000093925"/>
+<span class="company-logo-img hide" id="company-logo">
+  <img/>
+</span>
+<ul class="menubar">
+  <li class="active">
+  <a class="menu__home-link" href="/">Home</a>
+</li>
+<li class="hide_in_mobile ">
+  <a class="menu__workspace-link" href="/workspace">My Workspace</a>
+</li>
+<li class="">
+  <a class="menu__contact-us-link" href="/contact-us">Contact Us</a>
+</li>
+
+</ul>
+
+    </div>
+    <div class="main-content">
+      <input style="display:none" type="button" name="sendDataToGTMForAskTheExpert" id="sendDataToGTMForAskTheExpert" data-track="click" data-track-category="Ask The Expert" data-track-action="Submit" data-track-label="Email sent successfully"/>
+<div class="layout-7 home">
+  <div class="home__marketing-content">
+    <h3>Find your Insights</h3>
+    <h3>Make better informed strategic decisions with accurate, interlinked</h3>
+    <h3>narratives about drug development</h3>
+  </div>
+  <div class="home__main-search">
+    <div class="panel-search adisinsight__search-box">
+  <form id="global-search" class="big-search" action="/search" method="POST">
+    <label class="search-label">
+      Search:
+    </label>
+    <div class="search-field">
+      <div class="search-filter-wrapper">
+        <select id="search-filter-dropdown" class="search-filter select-dropdown">
+          <option selected="selected" value="drug-name">
+            by Drug Name
+          </option>
+          <option value="indication">
+            by Indication
+          </option>
+          <option value="moa">
+            by Mechanism
+          </option>
+          <option value="drug-class">
+            by Drug Class
+          </option>
+          <option value="adverse-event">
+            by Adverse Event
+          </option>
+          <option value="all">
+            All Text
+          </option>
+        </select>
+      </div>
+      <input id="searchTerm" class="text" type="text" name="query.get" value=""/>
+      <input id="query" type="hidden" name="query" value="{&quot;baseQuery&quot;:&quot;&quot;,&quot;facets&quot;:{},&quot;sortBy&quot;:{}}"/>
+      <input id="load_default_tab" type="hidden" name="loadDefaultTab" value="true"/>
+      <input id="search" class="search-submit" type="submit" disabled="disabled"/>
+      <img class="loading js-hidden" src="https://storage.googleapis.com/pcf_sb_39_1613727931605803249/assets/images/loading_search.gif" alt=""/>
+      <a class="search-field__cancel-search" id="global-search-cancel"></a>
+    </div>
+  </form>
+  <form id="graph-search" class="big-search" action="/search" method="POST">
+    <input id="graphQuery" type="hidden" name="query" value="{&quot;baseQuery&quot;:&quot;&quot;,&quot;facets&quot;:{},&quot;sortBy&quot;:{}}"/>
+    <input type="hidden" name="contentType" id="contentType" value="drugs"/>
+  </form>
+  <div class="search-options search-options--text structured-search-enabled">
+    <a class="query-builder-link" title="Open Search Options" href="/query-builder">
+      Advanced Search
+    </a>
+    <a class="structured-search-link" title="Open Search Options" href="/structure-search">
+      Structure Search
+    </a>
+    <form id="last-searches-form" method="POST" action="/lastSearches" class="last-searches-form hidden">
+      <input id="last-searched-queries" type="hidden" name="last-searches"/>
+      <a class="last-searches-link" title="Last 5 Searches">
+        Last 5 Searches
+      </a>
+    </form>
+    <form id="search-form-browser-back" method="POST" action="/search">
+      <input id="browser-back-query" type="hidden" name="query"/>
+    </form>
+  </div>
+</div>
+
+  </div>
+  <div class="home__homepage-content">
+    <div class="home__whatsnew-section">
+      <div class="section-new home__content--view">
+        <div id="whats-new" class="whatsnew-features"></div>
+      </div>
+      <div class="home__content--right home__content--view">
+        <div class="whatsnew-features-drugs">
+          <div class="whatsnew-content">
+  <h3 class="features-title">
+    Coronavirus Drug Profiles
+  </h3>
+  <p class="corona-virus-profile-description">
+    To support Covid-19 research we have made all related AdisInsight content freely available. Below are the 5 most viewed profiles and a link to hundreds more in the database.
+  </p>
+  <div class="features-slider free-programs">
+    <ul class="slide--0">
+      <li class="headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/drugs/800027914?bpIds=3000093925%2C3001592458&amp;checksum=0797b62b299e320ff6a4540863dde990b9bb80f1-1605093671452-c17183323f9f28903db80698e601e448979854bdf911905893237a83e0d9ad4a05397e65a874c51567277828def432d0" target="_blank" title="Lenzilumab - Humanigen">
+          Lenzilumab - Humanigen
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/drugs/800058899?bpIds=3000093925%2C3001592458&amp;checksum=630549e9d181c5c31d29a598d89d9dc12f148b44-1605093671210-af9eee875d5199257cfa24c27faee5de979854bdf911905893237a83e0d9ad4a05397e65a874c51567277828def432d0" target="_blank" title="Bamlanivimab - Abcellera/Eli Lilly and Company">
+          Bamlanivimab - Abcellera/Eli Lilly and Company
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/drugs/800047450?bpIds=3000093925%2C3001592458&amp;checksum=d7ed2d63a32164e8ec89cf6eef2dd24a1566d528-1605093672823-45292ec2f74a996c867be7d094e62f94979854bdf911905893237a83e0d9ad4a05397e65a874c51567277828def432d0" target="_blank" title="KAND 567">
+          KAND 567
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/drugs/800043325?bpIds=3000093925%2C3001592458&amp;checksum=1cd2567fc3da9c18593b26c86e6644fd71abdceb-1586786578991-c3685de9c4bde0c16f674fbfc33e7859979854bdf911905893237a83e0d9ad4a05397e65a874c51567277828def432d0" target="_blank" title="Remdesivir - Gilead Sciences">
+          Remdesivir - Gilead Sciences
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/drugs/800021756?bpIds=3000093925%2C3001592458&amp;checksum=eebbbd432476b05890c23b736c71ca4c6014a039-1605093671599-f125b04ff7c010d421e6fc60bde5582d979854bdf911905893237a83e0d9ad4a05397e65a874c51567277828def432d0" target="_blank" title="Dapagliflozin - AstraZeneca">
+          Dapagliflozin - AstraZeneca
+        </a>
+        <span class="closingTag"></span>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="corona-profiles-page">
+  <form id="coronavirus-profiles_form" method="POST" action="/search">
+    <input id="coronavirusQuery" type="hidden" name="query" value="{&quot;baseQuery&quot;:&quot;indication:(\&quot;Coronavirus infections\&quot;)&quot;,&quot;facets&quot;:{&quot;patents&quot;:[],&quot;drugSafety&quot;:[],&quot;trials&quot;:[],&quot;deals&quot;:[],&quot;drugsArchive&quot;:[],&quot;drugs&quot;:[]},&quot;sortBy&quot;:{&quot;drugSafety&quot;:&quot;&quot;,&quot;trials&quot;:&quot;&quot;,&quot;deals&quot;:&quot;&quot;,&quot;drugsArchive&quot;:&quot;&quot;,&quot;drugs&quot;:&quot;date&quot;}}"/>
+    <input type="hidden" name="contentAccess" id="contentAccess" value="drugs"/>
+    <input type="hidden" name="contentType" id="contentType" value="drugs"/>
+    <a class="see-all-content" href="javascript:void(0);" onClick="javascript:$(this).closest('form').submit();">
+      See all drug programs
+    </a>
+  </form>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="home__whatsnew-section">
+      <div class="section_personal_details home__content--view">
+        <h3>
+          Ask the Expert
+        </h3>
+        <p class="graphDataDescription">
+          Do you need help ? Please contact one of our AdisInsight experts
+        </p>
+        <p class="graphDataDescription">
+          We aim to get back to you with personalized answer within 24 hours
+        </p>
+        <label id="askTheExpert_name">
+          Name
+          <span class="name-asterisk">*</span>
+        </label>
+        <input class="class_ask_the_expert_from_name" type="text" name="fromName" placeholder="Your name" id="ask_the_expert_from_name"/>
+        <label id="askTheExpert_email">
+          Email address
+          <span class="email-asterisk">*</span>
+        </label>
+        <input class="class_ask_the_expert_from_email" type="text" name="email" placeholder="Your official business email address" id="ask_the_expert_from_email_id"/>
+        <label id="askTheExpert_comment">
+          Question / Comment
+          <span class="question-asterisk">*</span>
+        </label>
+        <textarea class="class_ask_the_expert_question" type="text" name="question" rows="1" cols="30" id="ask_the_expert_question" placeholder="Please write it down here"></textarea>
+        <button type="submit" id="btn_ask_the_expert_submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="home__content--right home__content--view">
+        <div class="whatsnew-features-trials">
+          <div class="whatsnew-content">
+  <h3 class="features-title">
+    Coronavirus Trial Profiles
+  </h3>
+  <p class="corona-virus-profile-description">
+    To support Covid-19 research we have made all related AdisInsight content freely available. Below are the 5 most viewed profiles and a link to hundreds more in the database.
+  </p>
+  <div class="features-slider free-programs">
+    <ul class="slide--0">
+      <li class="feature-header headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/trials/700289337?bpIds=3000093925%2C3001592458&amp;checksum=38b62cf0adfe6320811f126e018eaf8556e45dab-1586787132929-71c1446ce946c65204d895d88f3ca4d220e7ad1f3323df276bcb50bffb820ac695c718c94d8ca7a8382d2359a91e69e5" target="_blank" title="A Phase III Randomized Placebo-Controlled Study to Examine the Efficacy and Safety of DAS181 for the Treatment of Lower Respiratory Tract Parainfluenza Infection in Immunocompromised Subjects">
+          A Phase III Randomized Placebo-Controlled Study to Examine the Efficacy and Safety of DAS181 for the Treatment of Lower Respiratory Tract Parainfluenza Infection in Immunocompromised Subjects
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="feature-header headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/trials/700318955?bpIds=3000093925%2C3001592458&amp;checksum=29d5fc3a512b197b178286e416ee264a4fcc421b-1586787132672-61fa0ab32e7d850a5084e83f2c1398ff20e7ad1f3323df276bcb50bffb820ac695c718c94d8ca7a8382d2359a91e69e5" target="_blank" title="A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults">
+          A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="feature-header headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/trials/700320501?bpIds=3000093925%2C3001592458&amp;checksum=81b9477622151f3aac86afc794658356b3cd0a39-1586787132793-88102777807ae0a3f3f84b5d11945dc420e7ad1f3323df276bcb50bffb820ac695c718c94d8ca7a8382d2359a91e69e5" target="_blank" title="A Pragmatic Adaptive Open Label, Randomized Phase II/III Multicenter Study of IFX-1 in Patients With Severe COVID-19 Pneumonia">
+          A Pragmatic Adaptive Open Label, Randomized Phase II/III Multicenter Study of IFX-1 in Patients With Severe COVID-19 Pneumonia
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="feature-header headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/trials/700319835?bpIds=3000093925%2C3001592458&amp;checksum=0c7e14ebb25d8745f38d140ce9193a5edd9a9d45-1586787132840-8f8a37483ce228064f7afb944318f48420e7ad1f3323df276bcb50bffb820ac695c718c94d8ca7a8382d2359a91e69e5" target="_blank" title="An Adaptive Phase 2/3, Randomized, Double-Blind, Placebo-Controlled Study Assessing Efficacy and Safety of Sarilumab for Hospitalized Patients With COVID-19">
+          An Adaptive Phase 2/3, Randomized, Double-Blind, Placebo-Controlled Study Assessing Efficacy and Safety of Sarilumab for Hospitalized Patients With COVID-19
+        </a>
+        <span class="closingTag"></span>
+      </li>
+      <li class="feature-header headerEllipsis">
+        <a class="profile-link" href="https://adisinsight.springer.com/trials/700320682?bpIds=3001592458%2C3000093925&amp;checksum=0ff88b4ea9595b640c8c3fe2291aa690f2abc6b7-1588959515094-08e911a8ee6ce81540f68cf680ace1c0cbc8bf8c7047eae1d1b2f10a4fc441abd3eed84d26184d0ec8c142f7ffba3f89" target="_blank" title="A Randomized, Double-blind, Placebo-controlled Phase II Clinical Trial to Evaluate the Safety and Immunogenicity of the Recombinant Novel Coronavirus Vaccine (Adenovirus Vector) in Healthy Adults Aged Above 18 Years">
+          A Randomized, Double-blind, Placebo-controlled Phase II Clinical Trial to Evaluate the Safety and Immunogenicity of the Recombinant Novel Coronavirus Vaccine (Adenovirus Vector) in Healthy Adults Aged Above 18 Years
+        </a>
+        <span class="closingTag"></span>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="corona-profiles-page">
+  <form id="coronavirus-profiles_form" method="POST" action="/search">
+    <input id="coronavirusQuery" type="hidden" name="query" value="{&quot;baseQuery&quot;:&quot;indication:(\&quot;Coronavirus infections\&quot;)&quot;,&quot;facets&quot;:{&quot;patents&quot;:[],&quot;drugSafety&quot;:[],&quot;trials&quot;:[],&quot;deals&quot;:[],&quot;drugsArchive&quot;:[],&quot;drugs&quot;:[]},&quot;sortBy&quot;:{&quot;drugSafety&quot;:&quot;&quot;,&quot;trials&quot;:&quot;&quot;,&quot;deals&quot;:&quot;&quot;,&quot;drugsArchive&quot;:&quot;&quot;,&quot;drugs&quot;:&quot;date&quot;}}"/>
+    <input type="hidden" name="contentAccess" id="contentAccess" value="trials"/>
+    <input type="hidden" name="contentType" id="contentType" value="trials"/>
+    <a class="see-all-content" href="javascript:void(0);" onClick="javascript:$(this).closest('form').submit();">
+      See all trial programs
+    </a>
+  </form>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="main-footer">
+      <div class="footer__footer-verticals footer__section" role="navigation">
+  <div class="footer__verticals">
+    <span class="footer__strapline">
+      <strong>
+        210,000+
+      </strong>
+      scientifically curated records
+    </span>
+  </div>
+</div>
+<div class="footer__footer-nav footer__section">
+  <div id="footer-our-content" class="block" role="navigation">
+    <h2>About Our Content</h2>
+    <ul>
+      <li>
+        <a id="drugs-link" href="http://www.springer.com/gp/adis/products-services/adisinsight-databases/r-d-insight" target="_blank">Drugs</a>
+      </li>
+      <li>
+        <a id="trials-link" href="http://www.springer.com/gp/adis/products-services/adisinsight-databases/clinical-trials-insight" target="_blank">Trials</a>
+      </li>
+      <li>
+        <a id="safety-reports-link" href="http://www.springer.com/gp/adis/products-services/adisinsight-databases/pharmacovigilance" target="_blank">Safety Reports</a>
+      </li>
+      <li>
+        <a id="deals-link" href="http://www.springer.com/gp/adis/products-services/new-adisinsight/adisinsight-deals">Deals</a>
+      </li>
+    </ul>
+  </div>
+  <div id="footer-other-sites" class="block" role="navigation">
+    <h2>Other Sites</h2>
+    <ul>
+      <li>
+        <a id="springer" href="http://www.springer.com/" target="_blank">Springer.com</a>
+      </li>
+      <li>
+        <a id="springer-link" href="http://link.springer.com/" target="_blank">SpringerLink</a>
+      </li>
+      <li>
+        <a id="springer-rd-link" href="http://rd.springer.com/" target="_blank">Springer for R&D</a>
+      </li>
+      <li>
+        <a id="springer-protocols-link" href="http://www.springerprotocols.com/" target="_blank">SpringerProtocols</a>
+      </li>
+      <li>
+        <a id="springer-materials-link" href="http://materials.springer.com/" target="_blank">SpringerMaterials</a>
+      </li>
+      <li>
+        <a id="springer-reference-link" href="http://www.springerreference.com/" target="_blank">SpringerReference</a>
+      </li>
+    </ul>
+  </div>
+  <div class="block" role="navigation">
+    <h2>Help &amp; Contacts</h2>
+    <ul>
+      <li>
+        <a id="contact-us-link" href="/contact-us" title="Contact us" target="_blank">Contact Us</a>
+      </li>
+      <li>
+        <a id="help-link" href="/help" title="Help page" target="_blank">Help</a>
+      </li>
+    </ul>
+    <h2>Downloads</h2>
+    <ul>
+      <li>
+        <a id="download-bizint-link" href="http://www.bizint.com/product/adis" title="Download BizInt Setup" name="Download BizInt" target="_blank">BizInt Setup</a>
+        (windows only)
+      </li>
+    </ul>
+  </div>
+  <div class="blockLegal">
+    <h2>Legal</h2>
+    <ul>
+      <li>
+        <a class="footer__footer-privacy" href="/terms-and-conditions" title="View Terms and Conditions">
+          Privacy Policy, Disclaimer, General Terms &amp; Conditions
+        </a>
+      </li>
+      <li>
+        <a id="footer__footer-california-privacy" href="/ccpa" title="California Privacy Statement">California Privacy Statement</a>
+      </li>
+      <li>
+        <a id="cookie-policy-link" href="/cookie-policy" title="Cookie Policy">Cookie Policy</a>
+      </li>
+      <li>
+        <span class="oneTrustCookieBtn">
+          <a class="optanon-toggle-display">Manage Cookies / Do Not Sell My Info</a>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="footer__footer-legal footer__section" role="contentinfo">
+  <div class="footer__mobile-nav" id="mobile-nav">
+    <span class="pillow-btn footer__open-legal-btn" id="open-legal" title="Show Legal Information">Legal</span>
+  </div>
+  <div class="footer__legal" role="contentinfo">
+    <div class="footer__footer-copyright">
+      Adis International Ltd. Part of
+      Springer Science+Business Media
+      <br/>
+      © Springer Nature Switzerland AG
+    </div>
+    <div id="user-info" class="user-info">
+  <span id="user-login-status">Logged in as</span>
+  <span class="user-business-partners">
+    Springer Affiliates (3000093925)
+  </span>
+  <span id="user-ip">
+    195.128.10.106
+  </span>
+</div>
+
+  </div>
+</div>
+<div class="footer__footer-branding footer__section">
+  <span class="footer__branding-logo"></span>
+</div>
+
+    </div>
+  </div>
+  <div class="back-to-top-wrapper">
+    <a class="back-to-top" href="javascript:void(0)">
+      <span>Back to top</span>
+    </a>
+  </div>
+  <script src="/static/0.206.0/javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.selectBox.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.expander.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.sticky.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.hotSpot.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.fancytree-all.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.mqHelper.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.fileDownload.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.ba-throttle-debounce.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.tablesorter.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.tablesorter.pager.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery-dateFormat.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/lightbox.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.history.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.sticky-kit.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.placeholder.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/multiple-emails.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/ICEditJSWrapper.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/downloadmol.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/sly.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.floatThead.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.steps.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.textresizer.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/moment.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/md5.min.js" type="text/javascript"></script>
+<input type="hidden" name="test456" value="adis.springer.com"/>
+<script src="https://optanon.blob.core.windows.net/consent/21ef8bbe-4138-46d0-addf-a0caa6a64894.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+  function OptanonWrapper() {}
+</script>
+<script src="/static/0.206.0/javascripts/betaBar.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/drugPatentProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/usPatentProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/intlPatentProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/structuredSearch.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/polyfills.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/scroll.top.plugin.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/utils.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/advancedSearchComponent.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/accordian.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/deletionDialog.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/createAlertDialog.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/workspace.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/tableSorterPager.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/moduleLoader.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/clearSearchTextbox.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/main.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/helpers.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/search.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/exportHandler.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/exportOptions.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/stickyFacet.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/searchResults.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/exportDataTableHandler.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/facetHandler.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/saveSearchAndAlert.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/alertFilters.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/alertSettings.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/modifyAlert.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/createAlert.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/tableOfContent.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/drugProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/pagination.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/citation.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/trialProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/tooltip.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/ajaxLoader.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/bizintOffline.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/download.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/bizintDownload.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/analytics.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/sortResultsHandler.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/menuWithOptions.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/dateComponent.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/textComponent.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/historyEventComponent.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/query.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/overlayParams.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/phaseOfDev.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/trialDesign.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/companyRole.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/companyType.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/biomarkerFunction.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/queryBuilder.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/paramSlider.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/treeview.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/searchParams.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/printProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/navigateProfile.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/companyLogo.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/helpPage.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/shareQuery.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/personalization.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/jquery.smoothdivscroll.min.js" type="text/javascript"></script>
+<div id="script" src="/static/0.206.0/javascripts/personalizationClass.min.js" type="text/javascript"></div>
+<script src="/static/0.206.0/javascripts/showQuery.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/advancedSearchHighlighter.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/homepage.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/askTheExpert.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/unique_visitor_identifier.min.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/campaignPortal.min.js" type="text/javascript"></script>
+<script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+<script src="/static/0.206.0/javascripts/dialogComponent.min.js" type="text/javascript"></script>
+<script type="text/plain" class="optanon-category-3">
+  if(!window.ADIS.Utils.isMobile()) {
+  (function(){ var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/kd9l4H81faO571FaSr5uOw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s) })()
+  }
+</script>
+<script type="text/plain" class="optanon-category-3">
+  UserVoice = window.UserVoice || [];
+  UserVoice.push(['showTab', 'classic_widget', {
+  mode: 'full',
+  primary_color: '#cc6d00',
+  link_color: '#007dbf',
+  default_mode: 'support',
+  forum_id: 256111,
+  tab_label: 'Feedback',
+  tab_color: '#575553',
+  tab_position: 'middle-left',
+  tab_inverted: false
+  }]);
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  main = new ADIS.Main();
+  })
+</script>
+
+</body>
